@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # Expose The PORT NUMBER
-EXPOSE 5000
+EXPOSE 8082
 
 # Command To Run
 CMD [ "npm", "run" ,"dev-server"]
